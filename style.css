@@ -1,0 +1,252 @@
+body {
+  background: url(img/Ночное_небо_Таганая.jpeg) no-repeat;
+  background-size: 100%;
+ } 
+ .field {
+   margin-top: -200px;
+ }
+ .score {
+   position: absolute;
+   color: red;
+   font-weight: bold;
+   font-size: 30px;
+   padding: 10px;
+  border: 5px solid aquamarine;
+  height: 50px;
+  width: 150px;
+  top: 20px;
+  text-align: center;
+}
+.city {
+  z-index: 0;
+  position: absolute;
+  margin-left: -10px;
+}
+.spider {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -35px;
+  z-index: 1;
+}
+.borderOne {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 70px;
+  margin-top: 420px;
+}
+.borderTwo {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 220px;
+  margin-top: 280px;
+}
+.borderThree {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 360px;
+  margin-top: 320px;
+}
+.borderFour {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 450px;
+  margin-top: 55px;
+}
+.borderFive {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 520px;
+  margin-top: 300px;
+}
+.borderSix {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 600px;
+  margin-top: 320px;
+}
+.borderSeven {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 720px;
+  margin-top: 270px;
+}
+.borderEight {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 854px;
+  margin-top: 290px;
+}
+.borderNine {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 950px;
+  margin-top: 370px;
+}
+.borderTen {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 1100px;
+  margin-top: 180px;
+}
+.borderEleven {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 1230px;
+  margin-top: 200px;
+}
+.borderTwelve {
+  position: absolute;
+  border: 2px solid red;
+  padding: -40px;
+  height: 0px;
+  width: 30px;
+  margin-left: 1360px;
+  margin-top: 390px;
+}
+.goblin1 {
+  position: absolute; 
+  visibility: hidden;
+  z-index: 1; 
+  animation: goblin1Fall 3s infinite linear;
+  animation-delay: 0s;
+  animation-direction: alternate;
+}
+ @keyframes goblin1Fall {
+   0% {
+     top: 0%;
+     left: 10%;
+}
+   100% {
+     visibility: visible;
+     top: 1200px;
+     left: 500px;
+   }
+ } 
+.goblin2 {
+  position: absolute;
+  visibility: hidden;
+  z-index: 2;
+  animation: goblin2Fall 3s infinite linear;
+  animation-delay: 3s;
+  animation-direction: alternate;
+   }
+  @keyframes goblin2Fall {
+     0% {
+       top: 0px;
+       left: 0%;
+  }
+     100% {
+       visibility: visible;
+       top: 1200px;
+       left: 100%;
+     }
+   }
+.goblin3 {
+  position: relative;
+  visibility: hidden;
+  z-index: 2;
+  animation: goblin3Fall 3s infinite linear;
+  animation-delay: 2s;
+  animation-direction: alternate;
+}
+  @keyframes goblin3Fall {
+     0% {
+        top: 0px;
+        left: 40%;
+  }
+    100% {
+         visibility: visible;
+         top: 1000px;
+         left: 90%;
+      }
+    } 
+.goblin4 {
+  position: relative;
+  visibility: hidden;
+  z-index: 2;
+  animation: goblin4Fall 3s infinite linear;
+  animation-delay: 1s;
+  animation-direction: alternate;
+}
+   @keyframes goblin4Fall {
+      0% {
+           top: 500px;
+           left: 60%;
+         }
+      100% {
+           visibility: visible;
+           top: 1000px;
+           left: 0%;
+         }
+       } 
+  .goblin5 {
+    position: relative;
+    visibility: hidden;
+    z-index: 2;
+    animation: goblin5Fall 3s infinite linear;
+    animation-delay: 2s;
+    animation-direction: alternate;
+}
+    @keyframes goblin5Fall {
+       0% {
+          top: 1000px;
+          left: 30%;
+           }
+       100% {
+           visibility: visible;
+           top: 0px;
+           left: 90%;
+      }
+  }
+.win, .lose {
+  position: relative;
+  text-align: center;
+}
+.start {
+  position: absolute;
+  border: 5px solid aquamarine;
+  width: 150px;
+  height: 50px;
+  color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+  top: 20px;
+  left: 200px;
+  padding: 10px;
+  text-align: center;
+  word-spacing: 20px;
+  line-height: 25px;
+}

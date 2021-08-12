@@ -1,0 +1,28 @@
+{
+  "name": "elbrus-climber-phase0",
+  "version": "1.0.0",
+  "description": "Итак ты добрался до 3 недели, сдал соло-проект и чувствуешь запах победы над фазой 0. Пришло время покорить свой мини эльбрус. В этом задании тебе нужно написать свою игру, ограничений по геймплею нет 😉",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alina1298/elbrus-climber-phase0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alina1298/elbrus-climber-phase0/issues"
+  },
+  "homepage": "https://github.com/Alina1298/elbrus-climber-phase0#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
